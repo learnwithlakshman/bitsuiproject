@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+      <a class="navbar-brand" href="index.html">UI</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bootstrap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Html and CSS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript.html">JS</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="row mt-1">
+        <div class="col-md-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter the number"
+            id="tableInput"/>
+          <div id="showtable" class="mt-1"></div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="py-1 text-center bg-primary text-white mb-2">
+              <p>Arithmetic Operators</p>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter the number1"
+              id="num1"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter the number2"
+              id="num2"
+            />
+            
+          </div>
+
+          <div class="mt-1">
+            <button class="btn btn-primary" id="idAddBtn">+</button>
+            <button class="btn btn-primary" >-</button>
+            <button class="btn btn-primary" id="idMulbtn">*</button>
+            <button class="btn btn-primary">/</button>
+            <button class="btn btn-primary">%</button>
+            <button class="btn btn-primary">++</button>
+            <button class="btn btn-primary">--</button>
+          </div>
+          <div id="showresult">
+
+        </div>
+        </div>
+
+        <div class="col-md-5">
+            <div class="py-1 text-center bg-primary text-white mb-2">
+                <p>Number Operators</p>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter the number1"
+                id="num1"
+              />
+            </div>
+           
+            <div class="mt-1">
+              <button class="btn btn-primary" id="idAddBtn">Reverse</button>
+              <button class="btn btn-primary" >Sigle Digit sum</button>
+              <button class="btn btn-primary" id="idMulbtn">Amstrong</button>
+              <button class="btn btn-primary">Prime Factors</button>
+            
+            </div>
+            <div id="showresult">
+  
+          </div>
+          </div>
+      </div>
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
