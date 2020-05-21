@@ -4,6 +4,11 @@ https://www.w3schools.com/html/
 https://www.w3schools.com/css/default.asp
 
 
+Promise
+Fetch
+
+
+
 https://niranjan-ipl.firebaseapp.com/analyse
 
 https://indipl2020.herokuapp.com/swagger-ui.html#/team-stat-controller/getPlayersByTeamUsingGET
