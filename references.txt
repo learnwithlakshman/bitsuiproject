@@ -2,3 +2,13 @@ Reference links:
 
 https://www.w3schools.com/html/
 https://www.w3schools.com/css/default.asp
+
+
+https://niranjan-ipl.firebaseapp.com/analyse
+
+https://indipl2020.herokuapp.com/swagger-ui.html#/team-stat-controller/getPlayersByTeamUsingGET
+
+{
+  "password": "admin",
+  "username": "admin@gmail.com"
+}
